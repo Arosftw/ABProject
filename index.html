@@ -1,96 +1,227 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW" class="no-js page__mail">
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
-    <title>Jumbotron Template for Bootstrap</title>
-    <!-- Bootstrap core CSS -->
+    <link rel="icon" href="images/favicon.ico">
+    <title></title>
+    <meta name="keyword" content="">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/aos.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+    <div id="app">
+        <nav class="navbar navbar-expand-lg fixed-top ob-nav">
+            <a class="navbar-brand" href="" onclick="window.open('/retail');return false;" target="_blank" alt="王道銀行"><img src="images/logo.png" alt="王道銀行"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto ml-auto w-100 justify-content-end">
+                    <li class="nav-item active">
+                        <a class="nav-link scrollTo" href="#b1">竹科專門店 </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollTo" href="#b2">快速申貸3 2 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollTo" href="#b3">Q&A</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollTo" href="#b4">注意事項</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" onclick="window.open('/retail');return false;" target="_blank" alt="王道銀行"><img src="images/text.png" alt="ALL FOR YOU"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main role="main">
+            <div class="container-fluid kv p-0">
+                <div class="row mx-0">
+                    <div class="col-md-6 col-12">
+                        <img class="kv-title img-fluid mx-auto d-block align-middle" src="images/Omymoney.png" alt="O!my money 自助申請現省2800">
                     </div>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
-    <main role="main">
-        <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron">
+                    <div class="col-md-6 col-12 text-right">
+                        <img class="img-fluid" src="images/phone.png" alt="竹科圖片">
+                    </div>
+                </div>
+            </div>
             <div class="container">
-                <h1 class="display-3">Hello, world!</h1>
-                <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="line my-5">
+                            <h2 id="b1">產品特色</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <img class="img-fluid" data-aos="flip-left" data-aos-duration="400" src="images/sp1.png" alt="一率到底1.68% 竹科獨享">
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <img class="img-fluid" data-aos="flip-left" data-aos-duration="400" src="images/sp2.png" alt="手續費NT88元 全程線上完成">
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <img class="img-fluid" data-aos="flip-left" data-aos-duration="400" src="images/sp3.png" alt="24小時申貸免請假 貸你最方便">
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col-md-6 col-6">
+                        <a @click="show(1)" title="" class="hover-shadow">
+                        <img class="img-fluid" src="images/nowait.png" alt="自助申請不用等待">    
+                    </a>
+                    </div>
+                    <div class="col-md-6 col-6">
+                        <a @click="show(2)" title="" class="hover-shadow">
+                        <img class="img-fluid" src="images/service.png" alt="專人服務超越期待">    
+                    </a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <!-- Example row of columns -->
-            <div class="row">
-                <div class="col-md-4">
-                    <h2>Heading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <div class="container-fluid bg-slash p-0">
+                <div class="row mx-0 py-3" v-if="showService==1">
+                    <div class="col-md-5 col-12">
+                        <div class="kv-title rockphone mx-auto d-block align-middle py-3">
+                            <img src="images/rocket.png" alt="" class="img-fluid">
+                            <div class="imoney floating animated">
+                                <img src="images/imoney.png" alt="" class="img-fluid">
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="col-md-7 col-12">
+                        <img class="img-fluid mt-5 py-3" src="images/bluetable.png" alt="貸款說明">
+                        <a onClick="RedirectUrl(false, '/retail/obankacct/precreate-acct', '', 'event', 'no_member'); return false;" target="_blank" class="btn og-btn my-5 d-block" href="javascript: handler(); return false;" role="button"><i class="iphone"></i>即刻入貸</a>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <h2>Heading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-                </div>
-                <div class="col-md-4">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                <div class="row mx-0" v-else>
+                    <div class="col-md-5 col-12">
+                        <div class="kv-title cs mx-auto d-block align-middle py-3">
+                            <img src="images/CS.png" alt="" class="img-fluid">
+                            <div class="imoney2 floating animated">
+                                <img src="images/imoney2.png" alt="" class="img-fluid">
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-md-7 col-12">
+                        <img class="img-fluid mt-5" src="images/redtable.png" alt="貸款說明">
+                        <a onclick="window.open('/service/customer?sourceid=CMS&businesstype=Service&pagename=new%20page');return false;" class="btn og-btn my-5 d-block" href="javascript: handler(); return false;" role="button"><i class="fa fa-user-circle-o" aria-hidden="true"></i>請專人與我聯絡</a>
+                    </div>
                 </div>
             </div>
-            <hr>
-        </div>
-        <!-- /container -->
-    </main>
-    <footer class="container">
-        <p>&copy; Company 2017</p>
-    </footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="line my-5">
+                            <span id="b2"></span>
+                            <h2>快速申貸3、2、1</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <img data-aos="flip-left" data-aos-duration="400" class="img-fluid mb-3" src="images/fast3.png" alt="線上申貸3步驟">
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <img data-aos="flip-left" data-aos-duration="400" class="img-fluid mb-3" src="images/fast2.png" alt="完成2件事加速撥款">
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <img data-aos="flip-left" data-aos-duration="400" class="img-fluid mb-3" src="images/fast1.png" alt="線上成立契約">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="line my-5 box-title">
+                            <span id="b3"></span>
+                            <h2><i class="fa fa-plus-circle mr-5" aria-hidden="true"></i>Q&A</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bg-dot p-0">
+                <div class="container">
+                    <div class="row mx-0">
+                        <div class="col-md-12 col-12 py-5">
+                            <div class="qa-box">
+                                <span class="qa-title">
+                                    <i class="fa fa-question-circle" aria-hidden="true"></i> 在職文件是什麼？
+                                </span>
+                                <span class="qa-anser">可以直接將您的名片或識別證拍照上傳，記得照片要清楚完整，且有中文姓名喔！</span>
+                            </div>
+                            <div class="qa-box">
+                                <span class="qa-title">
+                                    <i class="fa fa-question-circle" aria-hidden="true"></i> 哪些資料可以作為財力證明？
+                                </span>
+                                <span class="qa-anser">
+                            為加快案件處理速度，建議您可以直接拍照上傳以下文件。<br>
+                            1. 最近一年度扣繳憑單<br>
+                            2. 最近一年度所得稅電子結算申報收執聯，如有多頁，每一頁均需提供<br>
+                            3. 近三個月薪資轉帳存摺，需有存摺封面及完整內頁<br>
+                            4. 公司人力資源系統查詢之薪資單，需有網址及公司名稱<br>
+                        </span>
+                            </div>
+                            <div class="qa-box">
+                                <span class="qa-title">
+                                    <i class="fa fa-question-circle" aria-hidden="true"></i> 我要怎麼查詢案件處理進度？
+                                </span>
+                                <span class="qa-anser">您可登入王道銀行網路銀行後，點選「我的貸款」，再點選「案件查詢及撥款」就可以隨時確認到您的案件狀態。</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="line my-5 box-title">
+                            <span id="b4"></span>
+                            <h2 class="hover" style="cursor: pointer" id="note"><i class="fa fa-plus-circle mr-4" aria-hidden="true"></i>注意事項</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-5">
+                        <ul class="note">
+                            <li>專案期間至2018年7月31日(含)止，以本行系統進件日為準。</li>
+                            <li>自助申請定義為客戶自行於線上申請，且申貸前或申貸中未經由本行專員協助補件及對保者。</li>
+                            <li>竹科專門店專案對象限定新竹科學工業園區事業廠商(下稱竹科廠商)之正職員工，如申請人任職於竹科廠商，但工作地點非屬新竹科學園區，經本行確認任職公司名稱後，仍得適用本專案之優惠；竹科廠商之認定以新竹科學園區(https://www.sipa.gov.tw/index.jsp)公告之廠商名錄為準。</li>
+                            <li class="bold">信用貸款一段式(本息攤還型)，總費用年百分率計算範例(計算基準日：民國107年3月21日)：貸款金額NT20萬元，貸款期間5年(限制清償期最長為12期)，貸款年利率1.68%(機動計息)，各項相關費用總金額：NT88~2,888元/筆，總費用年百分率：1.69%~2.10%(機動計息)。</li>
+                            <li>上述機動計息，係按本行一個月期定儲利率指數依計算基準日(i目前為1.07%)加碼1.61%%，調整時間為每月21日。</li>
+                            <li>本總費用年百分率之計算基準日為107年3月21日，年百分率計算基準日及日後年百分率會依實際借款期間、利率調整等因素而變動。本廣告揭露之年百分率係按主管機關備查之標準計算範例予以計算，實際貸款條件，仍以本行提供之產品為準。且每一客戶實際之年百分率仍視其個別貸款產品及授信條件而有所不同。總費用年百分率不等於貸款利率。</li>
+                            <li class="bold">違約金計收方式說明：
+                                <br>
+                                <ol type="a">
+                                    <li>本專案１年內提前「清償本金(即大額還款)」或「結清本貸款帳戶」時，需計收違約金。1~6期，提前清償本金之4%；7~12期，提前清償本金之3%。</li>
+                                    <li>本行另有「得隨時清償」之貸款專案，詳情請洽本行信貸專員。</li>
+                                </ol>
+                            </li>
+                            <li>本行具有解釋、變更或終止優惠活動內容之權利。本行保留最終核准核貸與否、貸款金額、貸款期間、利率及各項條件之權利。本行將依客戶收入負債比等綜合評量審查決定核准與否。</li>
+                            <li class="bold">本行未與任何代辦業者或行銷公司合作辦理貸款事宜，亦不受理代辦貸款業者之案件，提醒您，請勿透過代辦業者申貸或支付費用，以免損害自身權益。</li>
+                            <li>各信用貸款專案內容及條件均有不同，如需了解更多，請洽O-Bank數位貸款團隊。</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
-    <!-- /container -->
-    <!-- Bootstrap core JavaScript
-	================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/vue.min.js"></script>
+    <script src="js/es6-promise.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
