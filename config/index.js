@@ -42,8 +42,8 @@ module.exports = {
 
     // Paths
     assetsRoot: path.resolve(__dirname, '../docs'),
-    assetsSubDirectory: 'ABProject/static',
-    assetsPublicPath: './',
+    assetsSubDirectory: 'static',
+    assetsPublicPath: './ABProject',
 
     /**
      * Source Maps
