@@ -12,7 +12,7 @@ import 'bootstrap'
 import 'bootstrap/dist/js/bootstrap.bundle.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-
+import './assets/css/main.css'
 
 
 Vue.config.productionTip = false
