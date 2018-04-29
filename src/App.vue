@@ -3,10 +3,10 @@
 		<header class="py-3 container-fluid">
             <div class="row flex-nowrap justify-content-between align-items-center">
                 <div class="col-4 col-md-4 pt-1">
-                    <router-link to="/" class="text-muted">首頁</router-link>
+                    <router-link :to="{ name: 'Index'}" class="text-muted">首頁</router-link>
                 </div>
                 <div class="col-4 col-md-4 text-center">
-                    <a class="blog-header-logo text-dark" href="index.html">LOGO</a>
+                    <router-link :to="{ name: 'Index'}" class="blog-header-logo text-dark">LOGO</router-link>
                 </div>
                 <div class="col-4 col-md-4 d-flex justify-content-end align-items-center">
                     <a class="text-muted" href="#">
@@ -15,7 +15,7 @@
                             <line x1="21" y1="21" x2="15.8" y2="15.8"></line>
                         </svg>
                     </a>
-                    <a class="btn btn-sm btn-outline-secondary" href="index.html">斗內</a>
+                    <router-link :to="{ name: 'Index'}" class="btn btn-sm btn-outline-secondary">斗內</router-link>
                 </div>
             </div>
         </header>
