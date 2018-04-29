@@ -9,7 +9,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-                    <img src="/ABproject/static/images/slider/s1.jpg" alt="">
+                    <img src="/ABProject/static/images/slider/s1.jpg" alt="">
                     <div class="container">
                         <div class="carousel-caption text-left">
                             232323
@@ -18,7 +18,7 @@
                 </div>
                 <div class="carousel-item">
                     <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-                    <img src="/ABproject/static/images/slider/s2.jpg" alt="">
+                    <img src="/ABProject/static/images/slider/s2.jpg" alt="">
                     <div class="container">
                         <div class="carousel-caption">
                             1121212
@@ -27,7 +27,7 @@
                 </div>
                 <div class="carousel-item">
                     <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-                    <img src="/ABproject/static/images/slider/s3.jpg" alt="">
+                    <img src="/ABProject/static/images/slider/s3.jpg" alt="">
                     <div class="container">
                         <div class="carousel-caption text-right">
                             533434

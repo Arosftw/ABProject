@@ -10,17 +10,17 @@ export default new Router({
 	mode: 'history',
 	routes: [
 		{
-			path: '/',
+			path: '/ABProject',
 			name: 'Index',
 			component: Index
 		},
 		{
-			path: '/openbox',
+			path: '/ABProject/openbox',
 			name: 'InnerPage',
 			component: InnerPage
 		},
 		{
-			path: '/article',
+			path: '/ABProject/article',
 			name: 'Article',
 			component: Article
 		}
